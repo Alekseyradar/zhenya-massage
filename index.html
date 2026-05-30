@@ -424,7 +424,7 @@ body::after {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1920&q=80') center/cover no-repeat;
+  background: url('assets/hero-spa-oils.jpg') center/cover no-repeat;
   transform: scale(1.05);
   transition: transform 8s ease;
 }
@@ -1650,7 +1650,7 @@ body::after {
   <div class="section-inner">
     <div class="about-grid">
       <div class="about-image reveal">
-        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80" alt="Женя — профессиональный массажист" loading="lazy">
+        <img src="assets/zhenya-about.jpg" alt="Женя — профессиональный массажист" loading="lazy">
         <div class="about-accent"></div>
         <div class="about-stat">
           <div class="about-stat-num">8+</div>
@@ -1900,6 +1900,10 @@ body::after {
         <div class="form-group">
           <label for="date">Желаемая дата</label>
           <input type="date" id="date" name="date">
+        </div>
+        <div class="form-group">
+          <label for="time">Желаемое время</label>
+          <input type="time" id="time" name="time" min="09:00" max="20:00" step="1800">
         </div>
         <button type="submit" class="form-submit">Записаться на массаж</button>
       </form>
